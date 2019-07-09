@@ -16,9 +16,9 @@ namespace RekenmachineLogic
             _formule = formule;
         }
 
-        public static int Bewerking(int getal1, int getal2, char teken)
+        public static double Bewerking(double getal1, double getal2, char teken)
         {
-            int uitkomst = 0;
+            double uitkomst = 0;
 
 
             if (teken == '*')
@@ -103,9 +103,9 @@ namespace RekenmachineLogic
             string bewerking = input;
             int index = bewerking.IndexOf(teken);
 
-            int totaal;
+            double totaal;
 
-            int totaal1 = 0;
+            double totaal1 = 0;
             while (index > -1)
             {
                 int indexOperator1 = bewerking.IndexOf(teken);
@@ -119,7 +119,7 @@ namespace RekenmachineLogic
                 eerstePositieCijfer1++;
 
                 string getal1 = bewerking.Substring(eerstePositieCijfer1, bewerking.IndexOf(teken) - eerstePositieCijfer1);
-                int intgetal1 = int.Parse(getal1);
+                double intgetal1 = double.Parse(getal1);
 
                 int indexOperator = bewerking.IndexOf(teken);
                 int laatstePositieCijfer = indexOperator + 1;
@@ -131,10 +131,10 @@ namespace RekenmachineLogic
                 laatstePositieCijfer--;
 
                 string getal2 = bewerking.Substring(indexOperator + 1, laatstePositieCijfer - indexOperator);
-                int intgetal2 = int.Parse(getal2);
+                double intgetal2 = double.Parse(getal2);
 
                 totaal = Bewerking(intgetal1, intgetal2, teken);
-                int stringtotaal = totaal;
+                double stringtotaal = totaal;
                 string stotaal = stringtotaal.ToString();
 
                 string tekst = bewerking;

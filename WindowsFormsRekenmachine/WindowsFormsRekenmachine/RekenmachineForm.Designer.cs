@@ -66,6 +66,7 @@
             this.plusMinButton.TabIndex = 0;
             this.plusMinButton.Text = "±";
             this.plusMinButton.UseVisualStyleBackColor = false;
+            this.plusMinButton.Click += new System.EventHandler(this.Button_click);
             // 
             // zeroButton
             // 
@@ -77,7 +78,7 @@
             this.zeroButton.TabIndex = 1;
             this.zeroButton.Text = "0";
             this.zeroButton.UseVisualStyleBackColor = false;
-            this.zeroButton.Click += new System.EventHandler(this.ZeroButton_Click);
+            this.zeroButton.Click += new System.EventHandler(this.Button_click);
             // 
             // commaButton
             // 
@@ -89,12 +90,13 @@
             this.commaButton.TabIndex = 2;
             this.commaButton.Text = ",";
             this.commaButton.UseVisualStyleBackColor = false;
+            this.commaButton.Click += new System.EventHandler(this.Button_click);
             // 
             // gelijkaanButton
             // 
             this.gelijkaanButton.BackColor = System.Drawing.SystemColors.Control;
             this.gelijkaanButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gelijkaanButton.Location = new System.Drawing.Point(289, 478);
+            this.gelijkaanButton.Location = new System.Drawing.Point(289, 474);
             this.gelijkaanButton.Name = "gelijkaanButton";
             this.gelijkaanButton.Size = new System.Drawing.Size(87, 47);
             this.gelijkaanButton.TabIndex = 3;
@@ -112,7 +114,7 @@
             this.plusButton.TabIndex = 7;
             this.plusButton.Text = "+";
             this.plusButton.UseVisualStyleBackColor = false;
-            this.plusButton.Click += new System.EventHandler(this.PlusButton_Click);
+            this.plusButton.Click += new System.EventHandler(this.Button_click);
             // 
             // drieButton
             // 
@@ -124,7 +126,7 @@
             this.drieButton.TabIndex = 6;
             this.drieButton.Text = "3";
             this.drieButton.UseVisualStyleBackColor = false;
-            this.drieButton.Click += new System.EventHandler(this.DrieButton_Click);
+            this.drieButton.Click += new System.EventHandler(this.Button_click);
             // 
             // tweeButton
             // 
@@ -136,7 +138,7 @@
             this.tweeButton.TabIndex = 5;
             this.tweeButton.Text = "2";
             this.tweeButton.UseVisualStyleBackColor = false;
-            this.tweeButton.Click += new System.EventHandler(this.TweeButton_Click);
+            this.tweeButton.Click += new System.EventHandler(this.Button_click);
             // 
             // eenButton
             // 
@@ -148,7 +150,7 @@
             this.eenButton.TabIndex = 4;
             this.eenButton.Text = "1";
             this.eenButton.UseVisualStyleBackColor = false;
-            this.eenButton.Click += new System.EventHandler(this.EenButton_Click);
+            this.eenButton.Click += new System.EventHandler(this.Button_click);
             // 
             // maalButton
             // 
@@ -158,9 +160,9 @@
             this.maalButton.Name = "maalButton";
             this.maalButton.Size = new System.Drawing.Size(87, 47);
             this.maalButton.TabIndex = 15;
-            this.maalButton.Text = "X";
+            this.maalButton.Text = "*";
             this.maalButton.UseVisualStyleBackColor = false;
-            this.maalButton.Click += new System.EventHandler(this.MaalButton_Click);
+            this.maalButton.Click += new System.EventHandler(this.Button_click);
             // 
             // negenButton
             // 
@@ -172,7 +174,7 @@
             this.negenButton.TabIndex = 14;
             this.negenButton.Text = "9";
             this.negenButton.UseVisualStyleBackColor = false;
-            this.negenButton.Click += new System.EventHandler(this.NegenButton_Click);
+            this.negenButton.Click += new System.EventHandler(this.Button_click);
             // 
             // achtButton
             // 
@@ -184,7 +186,7 @@
             this.achtButton.TabIndex = 13;
             this.achtButton.Text = "8";
             this.achtButton.UseVisualStyleBackColor = false;
-            this.achtButton.Click += new System.EventHandler(this.AchtButton_Click);
+            this.achtButton.Click += new System.EventHandler(this.Button_click);
             // 
             // zevenButton
             // 
@@ -196,7 +198,7 @@
             this.zevenButton.TabIndex = 12;
             this.zevenButton.Text = "7";
             this.zevenButton.UseVisualStyleBackColor = false;
-            this.zevenButton.Click += new System.EventHandler(this.ZevenButton_Click);
+            this.zevenButton.Click += new System.EventHandler(this.Button_click);
             // 
             // minButton
             // 
@@ -208,7 +210,7 @@
             this.minButton.TabIndex = 11;
             this.minButton.Text = "-";
             this.minButton.UseVisualStyleBackColor = false;
-            this.minButton.Click += new System.EventHandler(this.MinButton_Click);
+            this.minButton.Click += new System.EventHandler(this.Button_click);
             // 
             // zesButton
             // 
@@ -220,7 +222,7 @@
             this.zesButton.TabIndex = 10;
             this.zesButton.Text = "6";
             this.zesButton.UseVisualStyleBackColor = false;
-            this.zesButton.Click += new System.EventHandler(this.ZesButton_Click);
+            this.zesButton.Click += new System.EventHandler(this.Button_click);
             // 
             // vijfButton
             // 
@@ -232,7 +234,7 @@
             this.vijfButton.TabIndex = 9;
             this.vijfButton.Text = "5";
             this.vijfButton.UseVisualStyleBackColor = false;
-            this.vijfButton.Click += new System.EventHandler(this.VijfButton_Click);
+            this.vijfButton.Click += new System.EventHandler(this.Button_click);
             // 
             // vierButton
             // 
@@ -244,7 +246,7 @@
             this.vierButton.TabIndex = 8;
             this.vierButton.Text = "4";
             this.vierButton.UseVisualStyleBackColor = false;
-            this.vierButton.Click += new System.EventHandler(this.VierButton_Click);
+            this.vierButton.Click += new System.EventHandler(this.Button_click);
             // 
             // deelButton
             // 
@@ -256,7 +258,7 @@
             this.deelButton.TabIndex = 19;
             this.deelButton.Text = "/";
             this.deelButton.UseVisualStyleBackColor = false;
-            this.deelButton.Click += new System.EventHandler(this.DeelButton_Click);
+            this.deelButton.Click += new System.EventHandler(this.Button_click);
             // 
             // deleteButton
             // 
@@ -394,6 +396,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "CalculatorForm";
             this.Text = "Calculator";
+            this.Click += new System.EventHandler(this.Button_click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
