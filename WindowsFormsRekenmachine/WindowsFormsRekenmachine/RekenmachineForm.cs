@@ -13,7 +13,12 @@ namespace WindowsFormsRekenmachine
 {
     public partial class CalculatorForm : Form
     {
-
+        private void Button_click(object sender, EventArgs e)
+        {
+            Button buttonClick = sender as Button;
+            displayTextBox.Text += buttonClick;
+            
+        }
         
         public CalculatorForm()
         {
@@ -89,15 +94,21 @@ namespace WindowsFormsRekenmachine
             //{
             //    textBox1.Text += "+";
             //}
-            
+
             //char teken = '+';
             //textBox1.Text.SingleOrDefault(teken)
             //if (textBox1.Text)
             //{
 
             //}
-
-            textBox1.Text += "+";
+            
+            string text = textBox1.Text;
+            int indexPlus = text.LastIndexOf('+');
+            if (textBox1.Text[indexPlus] == '+')
+            {
+                text.Remove(indexPlus);
+            }
+            
         }
 
         private void MinButton_Click(object sender, EventArgs e)
@@ -145,6 +156,11 @@ namespace WindowsFormsRekenmachine
         private void ClearButton_Click(object sender, EventArgs e)
         {
             displayTextBox.Clear();
+        }
+
+        private void CalculatorForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 

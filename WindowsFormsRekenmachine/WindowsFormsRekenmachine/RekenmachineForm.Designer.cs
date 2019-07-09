@@ -394,6 +394,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "CalculatorForm";
             this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.CalculatorForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
