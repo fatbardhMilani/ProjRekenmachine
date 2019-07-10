@@ -263,7 +263,7 @@
             // deleteButton
             // 
             this.deleteButton.BackColor = System.Drawing.SystemColors.Control;
-            this.deleteButton.Font = new System.Drawing.Font("Wingdings 3", 12F);
+            this.deleteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.deleteButton.Location = new System.Drawing.Point(198, 260);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(87, 47);
@@ -282,7 +282,6 @@
             this.clearButton.TabIndex = 17;
             this.clearButton.Text = "C";
             this.clearButton.UseVisualStyleBackColor = false;
-            this.clearButton.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // ClearAllButton
             // 
@@ -305,7 +304,6 @@
             this.displayTextBox.Size = new System.Drawing.Size(364, 96);
             this.displayTextBox.TabIndex = 21;
             this.displayTextBox.Text = "";
-            this.displayTextBox.TextChanged += new System.EventHandler(this.DisplayTextBox_TextChanged);
             // 
             // button1
             // 
@@ -321,7 +319,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.SystemColors.Control;
-            this.button2.Font = new System.Drawing.Font("Wingdings 3", 12F);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.button2.Location = new System.Drawing.Point(198, 207);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 47);
@@ -354,14 +352,13 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(364, 29);
+            this.textBox1.Size = new System.Drawing.Size(364, 36);
             this.textBox1.TabIndex = 26;
-            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // CalculatorForm
             // 
             this.AcceptButton = this.gelijkaanButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -396,6 +393,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "CalculatorForm";
             this.Text = "Calculator";
+            this.Load += new System.EventHandler(this.CalculatorForm_Load);
             this.Click += new System.EventHandler(this.Button_click);
             this.ResumeLayout(false);
             this.PerformLayout();
