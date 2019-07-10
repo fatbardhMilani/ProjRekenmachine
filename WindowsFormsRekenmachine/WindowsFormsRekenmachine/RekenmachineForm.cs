@@ -29,14 +29,20 @@ namespace WindowsFormsRekenmachine
             if (buttonClick.Text == "+" || buttonClick.Text == "-" || buttonClick.Text == "*" || buttonClick.Text == "/")
             {
 
-                if (!displayTextBox.Text.EndsWith(buttonClick.Text))
+                if (!textBox1.Text.EndsWith(buttonClick.Text))
                 {
-
                     textBox1.Text += buttonClick.Text;
+
+                    if (!displayTextBox.Text.EndsWith(buttonClick.Text))
+                    {
+                        
+                    }
                     
                 }
 
-
+                
+                Berekening bewerking = new Berekening(displayTextBox.Text);
+                string oplossing = bewerking.Main();
                 displayTextBox.Text += textBox1.Text;
                 textBox1.Clear();
 
