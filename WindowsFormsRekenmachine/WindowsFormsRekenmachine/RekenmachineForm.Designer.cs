@@ -300,6 +300,7 @@
             this.displayTextBox.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayTextBox.Location = new System.Drawing.Point(12, 105);
             this.displayTextBox.Name = "displayTextBox";
+            this.displayTextBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.displayTextBox.Size = new System.Drawing.Size(364, 96);
             this.displayTextBox.TabIndex = 21;
             this.displayTextBox.Text = "";
