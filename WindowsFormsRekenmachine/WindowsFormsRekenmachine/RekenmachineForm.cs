@@ -21,8 +21,6 @@ namespace WindowsFormsRekenmachine
             
             if (textBox1.Text.EndsWith("+") || textBox1.Text.EndsWith("-") || textBox1.Text.EndsWith("/") || textBox1.Text.EndsWith("*"))
             {
-                
-
                 if (buttonClick.Text == "+" || buttonClick.Text == "-" || buttonClick.Text == "*" || buttonClick.Text == "/")
                 {
 
