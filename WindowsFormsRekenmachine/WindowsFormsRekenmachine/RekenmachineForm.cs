@@ -86,13 +86,13 @@ namespace WindowsFormsRekenmachine
            
         }
 
-        
+
 
         private void PlusButton_Click(object sender, EventArgs e)
         {
             //if (textBox1.Text.All("++") )
             //{
-            //    textBox1.Text += "+";
+            textBox1.Text += "+";
             //}
 
             //char teken = '+';
