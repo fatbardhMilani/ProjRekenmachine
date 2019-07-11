@@ -89,9 +89,20 @@ namespace RekenmachineLogic
             // .replace("(2+2)", "4")
             // 5+5+4+1
 
+            if (input.Contains('/')&&input.Contains('*'))
+            {
+                int indexDeling = input.IndexOf('/');
+                int indexMaal = input.IndexOf('*');
+                if (indexMaal > indexDeling)
+                {
+                    input = Bewerkingen(input, '/');
+                }
+                else
+                {
+                    input = Bewerkingen(input, '*');
+                }
+            }
 
-            input = Bewerkingen(input, '*');
-            input = Bewerkingen(input, '/');
             input = Bewerkingen(input, '+');
             input = Bewerkingen(input, '-');
 

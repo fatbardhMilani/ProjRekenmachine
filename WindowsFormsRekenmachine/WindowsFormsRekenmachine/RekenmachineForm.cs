@@ -37,7 +37,7 @@ namespace WindowsFormsRekenmachine
 
         private void TweeButton_Click(object sender, EventArgs e)
         {
-            textBox1.Text += "2";
+            displayTextBox.Text += "2";
         }
 
         private void DrieButton_Click(object sender, EventArgs e)
@@ -67,12 +67,12 @@ namespace WindowsFormsRekenmachine
 
         private void AchtButton_Click(object sender, EventArgs e)
         {
-            textBox1.Text += "8";
+            displayTextBox.Text += "8";
         }
 
         private void NegenButton_Click(object sender, EventArgs e)
         {
-            textBox1.Text += "9";
+            displayTextBox.Text += "9";
         }
 
         private void ClearAllButton_Click(object sender, EventArgs e)
@@ -92,7 +92,7 @@ namespace WindowsFormsRekenmachine
         {
             //if (textBox1.Text.All("++") )
             //{
-            textBox1.Text += "+";
+            displayTextBox.Text += "+";
             //}
 
             //char teken = '+';
@@ -102,12 +102,12 @@ namespace WindowsFormsRekenmachine
 
             //}
             
-            string text = textBox1.Text;
-            int indexPlus = text.LastIndexOf('+');
-            if (textBox1.Text[indexPlus] == '+')
-            {
-                text.Remove(indexPlus);
-            }
+            //string text = textBox1.Text;
+            //int indexPlus = text.LastIndexOf('+');
+            //if (textBox1.Text[indexPlus] == '+')
+            //{
+            //    text.Remove(indexPlus);
+            //}
             
         }
 
@@ -119,7 +119,7 @@ namespace WindowsFormsRekenmachine
         private void MaalButton_Click(object sender, EventArgs e)
         {
 
-            textBox1.Text += "*";
+            displayTextBox.Text += "*";
         }
 
         private void DeelButton_Click(object sender, EventArgs e)
@@ -129,7 +129,7 @@ namespace WindowsFormsRekenmachine
 
         private void GelijkaanButton_Click(object sender, EventArgs e)
         {
-            Berekening bewerking = new Berekening(textBox1.Text);
+            Berekening bewerking = new Berekening(displayTextBox.Text);
             string oplossing = bewerking.Main();
 
             displayTextBox.Text = oplossing;
@@ -138,8 +138,8 @@ namespace WindowsFormsRekenmachine
 
         private void DisplayTextBox_TextChanged(object sender, EventArgs e)
         {
-            Berekening bewerking = new Berekening(textBox1.Text);
-            string input = textBox1.Text;
+            Berekening bewerking = new Berekening(displayTextBox.Text);
+            string input = displayTextBox.Text;
 
 
             //this.displayTextBox.
