@@ -21,11 +21,14 @@ namespace WindowsFormsRekenmachine
             
             if (textBox1.Text.EndsWith("+") || textBox1.Text.EndsWith("-") || textBox1.Text.EndsWith("/") || textBox1.Text.EndsWith("*"))
             {
+                
+
+
                 if (buttonClick.Text == "+" || buttonClick.Text == "-" || buttonClick.Text == "*" || buttonClick.Text == "/")
                 {
-
-                    textBox1.Text += buttonClick.Text;
                     textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length-1);
+                    textBox1.Text += buttonClick.Text;
+
 
                 }
                 else
