@@ -57,38 +57,20 @@ namespace RekenmachineLogic
         {
 
 
-            //string tekst = "ABCDEF(GH)IJKLM";
+            if (input.Contains('/') && input.Contains('*'))
+            {
+                int indexDeling = input.IndexOf('/');
+                int indexMaal = input.IndexOf('*');
+                if (indexMaal > indexDeling)
+                {
+                    input = Bewerkingen(input, '/');
+                }
+                else
+                {
+                    input = Bewerkingen(input, '*');
+                }
 
-            //int index = tekst.IndexOf('(');
-            //Console.WriteLine("Op " + index + " staat de letter " + tekst[index]);
-
-
-            //string temp = tekst.Substring(index, 4);
-            //Console.WriteLine("Dit is temp:" + temp);
-
-            //int index1 = tekst.IndexOf(')');
-            //Console.WriteLine("Op " + index1 + " staat de letter " + tekst[index1]);
-
-            //int temp1 = tekst.Replace(index - 1, index1 - index);
-            //Console.WriteLine("Dit is tekst:" + tekst);
-            //Console.WriteLine("Dit is temp:" + temp);
-
-
-            //temp = tekst.Remove(index, index1 - 5);+
-            //Console.WriteLine("Dit is tekst:" + tekst);
-            //Console.WriteLine("Dit is temp:" + temp);
-
-
-
-            //alle haakjes eruit halen
-
-            //5+5+(2+2)+1
-
-            // .Substring(positieEersteHaakje + 1, positieTweedeHaakje - positieEersteHaakje)
-            // ==> 2+2 ==> Berekeningen("2+2", '+') ==> "4"
-            // .replace("(2+2)", "4")
-            // 5+5+4+1
-
+            }
 
             input = Bewerkingen(input, '*');
             input = Bewerkingen(input, '/');

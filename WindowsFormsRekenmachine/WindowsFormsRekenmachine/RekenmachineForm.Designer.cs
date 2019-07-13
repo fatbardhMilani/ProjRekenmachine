@@ -54,24 +54,26 @@
             this.vierkantswortelButton = new System.Windows.Forms.Button();
             this.procButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.geschiedenisComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // plusMinButton
             // 
-            this.plusMinButton.BackColor = System.Drawing.SystemColors.Control;
+            this.plusMinButton.BackColor = System.Drawing.Color.Teal;
             this.plusMinButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plusMinButton.ForeColor = System.Drawing.Color.Silver;
             this.plusMinButton.Location = new System.Drawing.Point(12, 478);
             this.plusMinButton.Name = "plusMinButton";
             this.plusMinButton.Size = new System.Drawing.Size(87, 47);
             this.plusMinButton.TabIndex = 0;
-            this.plusMinButton.Text = "±";
             this.plusMinButton.UseVisualStyleBackColor = false;
             this.plusMinButton.Click += new System.EventHandler(this.Button_click);
             // 
             // zeroButton
             // 
-            this.zeroButton.BackColor = System.Drawing.SystemColors.Control;
+            this.zeroButton.BackColor = System.Drawing.Color.Teal;
             this.zeroButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zeroButton.ForeColor = System.Drawing.Color.Silver;
             this.zeroButton.Location = new System.Drawing.Point(105, 478);
             this.zeroButton.Name = "zeroButton";
             this.zeroButton.Size = new System.Drawing.Size(87, 47);
@@ -82,8 +84,9 @@
             // 
             // commaButton
             // 
-            this.commaButton.BackColor = System.Drawing.SystemColors.Control;
+            this.commaButton.BackColor = System.Drawing.Color.Teal;
             this.commaButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.commaButton.ForeColor = System.Drawing.Color.Silver;
             this.commaButton.Location = new System.Drawing.Point(198, 478);
             this.commaButton.Name = "commaButton";
             this.commaButton.Size = new System.Drawing.Size(87, 47);
@@ -94,9 +97,10 @@
             // 
             // gelijkaanButton
             // 
-            this.gelijkaanButton.BackColor = System.Drawing.SystemColors.Control;
+            this.gelijkaanButton.BackColor = System.Drawing.Color.Teal;
             this.gelijkaanButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gelijkaanButton.Location = new System.Drawing.Point(289, 474);
+            this.gelijkaanButton.ForeColor = System.Drawing.Color.Silver;
+            this.gelijkaanButton.Location = new System.Drawing.Point(289, 478);
             this.gelijkaanButton.Name = "gelijkaanButton";
             this.gelijkaanButton.Size = new System.Drawing.Size(87, 47);
             this.gelijkaanButton.TabIndex = 3;
@@ -106,8 +110,9 @@
             // 
             // plusButton
             // 
-            this.plusButton.BackColor = System.Drawing.SystemColors.Control;
+            this.plusButton.BackColor = System.Drawing.Color.Teal;
             this.plusButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plusButton.ForeColor = System.Drawing.Color.Silver;
             this.plusButton.Location = new System.Drawing.Point(289, 424);
             this.plusButton.Name = "plusButton";
             this.plusButton.Size = new System.Drawing.Size(87, 47);
@@ -118,8 +123,9 @@
             // 
             // drieButton
             // 
-            this.drieButton.BackColor = System.Drawing.SystemColors.Control;
+            this.drieButton.BackColor = System.Drawing.Color.Teal;
             this.drieButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.drieButton.ForeColor = System.Drawing.Color.Silver;
             this.drieButton.Location = new System.Drawing.Point(198, 424);
             this.drieButton.Name = "drieButton";
             this.drieButton.Size = new System.Drawing.Size(87, 47);
@@ -130,8 +136,9 @@
             // 
             // tweeButton
             // 
-            this.tweeButton.BackColor = System.Drawing.SystemColors.Control;
+            this.tweeButton.BackColor = System.Drawing.Color.Teal;
             this.tweeButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tweeButton.ForeColor = System.Drawing.Color.Silver;
             this.tweeButton.Location = new System.Drawing.Point(105, 424);
             this.tweeButton.Name = "tweeButton";
             this.tweeButton.Size = new System.Drawing.Size(87, 47);
@@ -142,8 +149,9 @@
             // 
             // eenButton
             // 
-            this.eenButton.BackColor = System.Drawing.SystemColors.Control;
+            this.eenButton.BackColor = System.Drawing.Color.Teal;
             this.eenButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eenButton.ForeColor = System.Drawing.Color.Silver;
             this.eenButton.Location = new System.Drawing.Point(12, 424);
             this.eenButton.Name = "eenButton";
             this.eenButton.Size = new System.Drawing.Size(87, 47);
@@ -154,8 +162,9 @@
             // 
             // maalButton
             // 
-            this.maalButton.BackColor = System.Drawing.SystemColors.Control;
+            this.maalButton.BackColor = System.Drawing.Color.Teal;
             this.maalButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maalButton.ForeColor = System.Drawing.Color.Silver;
             this.maalButton.Location = new System.Drawing.Point(289, 316);
             this.maalButton.Name = "maalButton";
             this.maalButton.Size = new System.Drawing.Size(87, 47);
@@ -166,8 +175,9 @@
             // 
             // negenButton
             // 
-            this.negenButton.BackColor = System.Drawing.SystemColors.Control;
+            this.negenButton.BackColor = System.Drawing.Color.Teal;
             this.negenButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.negenButton.ForeColor = System.Drawing.Color.Silver;
             this.negenButton.Location = new System.Drawing.Point(198, 316);
             this.negenButton.Name = "negenButton";
             this.negenButton.Size = new System.Drawing.Size(87, 47);
@@ -178,8 +188,9 @@
             // 
             // achtButton
             // 
-            this.achtButton.BackColor = System.Drawing.SystemColors.Control;
+            this.achtButton.BackColor = System.Drawing.Color.Teal;
             this.achtButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.achtButton.ForeColor = System.Drawing.Color.Silver;
             this.achtButton.Location = new System.Drawing.Point(105, 316);
             this.achtButton.Name = "achtButton";
             this.achtButton.Size = new System.Drawing.Size(87, 47);
@@ -190,8 +201,9 @@
             // 
             // zevenButton
             // 
-            this.zevenButton.BackColor = System.Drawing.SystemColors.Control;
+            this.zevenButton.BackColor = System.Drawing.Color.Teal;
             this.zevenButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zevenButton.ForeColor = System.Drawing.Color.Silver;
             this.zevenButton.Location = new System.Drawing.Point(12, 316);
             this.zevenButton.Name = "zevenButton";
             this.zevenButton.Size = new System.Drawing.Size(87, 47);
@@ -202,8 +214,9 @@
             // 
             // minButton
             // 
-            this.minButton.BackColor = System.Drawing.SystemColors.Control;
+            this.minButton.BackColor = System.Drawing.Color.Teal;
             this.minButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minButton.ForeColor = System.Drawing.Color.Silver;
             this.minButton.Location = new System.Drawing.Point(289, 370);
             this.minButton.Name = "minButton";
             this.minButton.Size = new System.Drawing.Size(87, 47);
@@ -214,8 +227,9 @@
             // 
             // zesButton
             // 
-            this.zesButton.BackColor = System.Drawing.SystemColors.Control;
+            this.zesButton.BackColor = System.Drawing.Color.Teal;
             this.zesButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.zesButton.ForeColor = System.Drawing.Color.Silver;
             this.zesButton.Location = new System.Drawing.Point(198, 370);
             this.zesButton.Name = "zesButton";
             this.zesButton.Size = new System.Drawing.Size(87, 47);
@@ -226,8 +240,9 @@
             // 
             // vijfButton
             // 
-            this.vijfButton.BackColor = System.Drawing.SystemColors.Control;
+            this.vijfButton.BackColor = System.Drawing.Color.Teal;
             this.vijfButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vijfButton.ForeColor = System.Drawing.Color.Silver;
             this.vijfButton.Location = new System.Drawing.Point(105, 370);
             this.vijfButton.Name = "vijfButton";
             this.vijfButton.Size = new System.Drawing.Size(87, 47);
@@ -238,8 +253,9 @@
             // 
             // vierButton
             // 
-            this.vierButton.BackColor = System.Drawing.SystemColors.Control;
+            this.vierButton.BackColor = System.Drawing.Color.Teal;
             this.vierButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vierButton.ForeColor = System.Drawing.Color.Silver;
             this.vierButton.Location = new System.Drawing.Point(12, 370);
             this.vierButton.Name = "vierButton";
             this.vierButton.Size = new System.Drawing.Size(87, 47);
@@ -250,8 +266,9 @@
             // 
             // deelButton
             // 
-            this.deelButton.BackColor = System.Drawing.SystemColors.Control;
+            this.deelButton.BackColor = System.Drawing.Color.Teal;
             this.deelButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deelButton.ForeColor = System.Drawing.Color.Silver;
             this.deelButton.Location = new System.Drawing.Point(289, 260);
             this.deelButton.Name = "deelButton";
             this.deelButton.Size = new System.Drawing.Size(87, 47);
@@ -262,31 +279,33 @@
             // 
             // deleteButton
             // 
-            this.deleteButton.BackColor = System.Drawing.SystemColors.Control;
+            this.deleteButton.BackColor = System.Drawing.Color.Teal;
             this.deleteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.deleteButton.ForeColor = System.Drawing.Color.Silver;
             this.deleteButton.Location = new System.Drawing.Point(198, 260);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(87, 47);
             this.deleteButton.TabIndex = 18;
-            this.deleteButton.Text = "Z";
+            this.deleteButton.Text = "<-";
             this.deleteButton.UseVisualStyleBackColor = false;
             this.deleteButton.Click += new System.EventHandler(this.DeleteButton_Click);
             // 
             // clearButton
             // 
-            this.clearButton.BackColor = System.Drawing.SystemColors.Control;
+            this.clearButton.BackColor = System.Drawing.Color.Teal;
             this.clearButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearButton.ForeColor = System.Drawing.Color.Silver;
             this.clearButton.Location = new System.Drawing.Point(105, 260);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(87, 47);
             this.clearButton.TabIndex = 17;
-            this.clearButton.Text = "C";
             this.clearButton.UseVisualStyleBackColor = false;
             // 
             // ClearAllButton
             // 
-            this.ClearAllButton.BackColor = System.Drawing.SystemColors.Control;
+            this.ClearAllButton.BackColor = System.Drawing.Color.Teal;
             this.ClearAllButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClearAllButton.ForeColor = System.Drawing.Color.Silver;
             this.ClearAllButton.Location = new System.Drawing.Point(12, 260);
             this.ClearAllButton.Name = "ClearAllButton";
             this.ClearAllButton.Size = new System.Drawing.Size(87, 47);
@@ -297,40 +316,43 @@
             // 
             // displayTextBox
             // 
+            this.displayTextBox.BackColor = System.Drawing.Color.Ivory;
             this.displayTextBox.Enabled = false;
             this.displayTextBox.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayTextBox.Location = new System.Drawing.Point(12, 105);
             this.displayTextBox.Name = "displayTextBox";
+            this.displayTextBox.ReadOnly = true;
             this.displayTextBox.Size = new System.Drawing.Size(364, 96);
             this.displayTextBox.TabIndex = 21;
             this.displayTextBox.Text = "";
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.BackColor = System.Drawing.Color.Teal;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Silver;
             this.button1.Location = new System.Drawing.Point(289, 207);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(87, 47);
             this.button1.TabIndex = 25;
-            this.button1.Text = "/";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Control;
+            this.button2.BackColor = System.Drawing.Color.Teal;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button2.ForeColor = System.Drawing.Color.Silver;
             this.button2.Location = new System.Drawing.Point(198, 207);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(87, 47);
             this.button2.TabIndex = 24;
-            this.button2.Text = "Z";
             this.button2.UseVisualStyleBackColor = false;
             // 
             // vierkantswortelButton
             // 
-            this.vierkantswortelButton.BackColor = System.Drawing.SystemColors.Control;
+            this.vierkantswortelButton.BackColor = System.Drawing.Color.Teal;
             this.vierkantswortelButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vierkantswortelButton.ForeColor = System.Drawing.Color.Silver;
             this.vierkantswortelButton.Location = new System.Drawing.Point(105, 207);
             this.vierkantswortelButton.Name = "vierkantswortelButton";
             this.vierkantswortelButton.Size = new System.Drawing.Size(87, 47);
@@ -339,30 +361,41 @@
             // 
             // procButton
             // 
-            this.procButton.BackColor = System.Drawing.SystemColors.Control;
+            this.procButton.BackColor = System.Drawing.Color.Teal;
             this.procButton.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.procButton.ForeColor = System.Drawing.Color.Silver;
             this.procButton.Location = new System.Drawing.Point(12, 207);
             this.procButton.Name = "procButton";
             this.procButton.Size = new System.Drawing.Size(87, 47);
             this.procButton.TabIndex = 22;
-            this.procButton.Text = "%";
             this.procButton.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(364, 36);
             this.textBox1.TabIndex = 26;
+            // 
+            // geschiedenisComboBox
+            // 
+            this.geschiedenisComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.geschiedenisComboBox.FormattingEnabled = true;
+            this.geschiedenisComboBox.Location = new System.Drawing.Point(12, 54);
+            this.geschiedenisComboBox.Name = "geschiedenisComboBox";
+            this.geschiedenisComboBox.Size = new System.Drawing.Size(364, 38);
+            this.geschiedenisComboBox.TabIndex = 27;
             // 
             // CalculatorForm
             // 
             this.AcceptButton = this.gelijkaanButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(388, 533);
+            this.Controls.Add(this.geschiedenisComboBox);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
@@ -390,8 +423,10 @@
             this.Controls.Add(this.zeroButton);
             this.Controls.Add(this.plusMinButton);
             this.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "CalculatorForm";
+            this.Opacity = 0.8D;
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.CalculatorForm_Load);
             this.Click += new System.EventHandler(this.Button_click);
@@ -428,6 +463,7 @@
         private System.Windows.Forms.Button vierkantswortelButton;
         private System.Windows.Forms.Button procButton;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox geschiedenisComboBox;
     }
 }
 
