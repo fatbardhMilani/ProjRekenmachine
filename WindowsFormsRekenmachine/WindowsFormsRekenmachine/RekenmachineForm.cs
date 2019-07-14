@@ -17,11 +17,9 @@ namespace WindowsFormsRekenmachine
         {
             InitializeComponent();
 
-        }
-         ////////////enter zonder teken fixen///////
+        } 
         private void Button_click(object sender, EventArgs e)
         {
-          
             Button buttonClick = sender as Button;
             
             if (textBox1.Text.EndsWith("+") || textBox1.Text.EndsWith("-") || textBox1.Text.EndsWith("/") || textBox1.Text.EndsWith("*")|| textBox1.Text.EndsWith(","))
@@ -35,13 +33,11 @@ namespace WindowsFormsRekenmachine
                 {
                     textBox1.Text += buttonClick.Text;
                 }
-
             }
             else if(buttonClick != null)
             {
                 textBox1.Text += buttonClick.Text;
             }
-
         }
         private void ClearAllButton_Click(object sender, EventArgs e)
         {
@@ -54,8 +50,7 @@ namespace WindowsFormsRekenmachine
             if (textBox1.Text.Length != 0)
             {
                 textBox1.Text = textBox1.Text.Remove(textBox1.Text.Length - 1);
-            }
-          
+            } 
         }
         private void GelijkaanButton_Click(object sender, EventArgs e)
         {
@@ -75,7 +70,5 @@ namespace WindowsFormsRekenmachine
         {
 
         }
-
     }
-
 }
